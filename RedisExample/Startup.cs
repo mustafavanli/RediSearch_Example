@@ -34,7 +34,7 @@ namespace RedisExample
 
             NReJSON.NReJSONSerializer.SerializerProxy = new NewtonsoftSeralizeProxy();
             services.AddControllers();
-            var connectionString = "localhost:6379";
+            var connectionString = Configuration["RedisSettings:Server"].ToString();
             services.AddSingleton<IConnectionMultiplexer>(ConnectionMultiplexer.Connect(connectionString));
             // DI
             services.AddSingleton<ProductService>(); 
