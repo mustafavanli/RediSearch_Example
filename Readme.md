@@ -1,6 +1,6 @@
 <h3>English</h3>
-I used RediSearch, a module of Redis, in this project. I'm sorry I won't be able to explain at length when my English is not good
-But i will give information about how to install redisearch
+I used RediSearch, a module of Redis, in this project.
+i will give information about how to install redisearch
 
 <h3>Turkish</h3>
 Bu projemde Redis'in bir modülü olan redisearch kullandım.
