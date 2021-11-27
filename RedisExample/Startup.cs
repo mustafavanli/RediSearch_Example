@@ -25,7 +25,6 @@ namespace RedisExample
         {
             Configuration = configuration;
         }
-        public const string COOKIE_AUTH_SCHEME = "CookieAuthentication";
         public IConfiguration Configuration { get; }
 
         // This method gets called by the runtime. Use this method to add services to the container.
